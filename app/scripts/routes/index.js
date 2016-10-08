@@ -1,10 +1,10 @@
 module.exports = {
-  url: '/home',
+  url: '/exchange',
   views: {
     '': {
       templateUrl: 'views/index.html',
     },
-    'exchangeForm@home': {
+    'exchangeForm@exchange': {
       templateUrl: 'views/partials/inputs.html',
       controller: 'indexController',
     },

@@ -1,5 +1,5 @@
 {
-  "firebase": "forexexchange",
+  "firebase": "forexapi",
   "public": "public",
   "ignore": [
     "firebase.json",
