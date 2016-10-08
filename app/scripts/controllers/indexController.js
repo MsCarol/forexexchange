@@ -1,9 +1,9 @@
-module.exports = function($http, $scope) {
-  var exchangeAPIURL = 'http://api.fixer.io/latest?base=USD&symbols=';
+module.exports = function indexController($http, $scope) {
+  var exchangeAPIURL = 'https://api.fixer.io/latest?base=USD&symbols=';
 
   $scope.currencies = {
     a: 'USD',
-    b: 'GBP'
+    b: 'GBP',
   };
 
   $scope.checkForexRate = function() {
@@ -25,5 +25,5 @@ module.exports = function($http, $scope) {
         console.log(err);
       });
     }
-  }
+  };
 };

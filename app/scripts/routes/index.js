@@ -6,7 +6,7 @@ module.exports = {
     },
     'exchangeForm@home': {
       templateUrl: 'views/partials/inputs.html',
-      controller: 'indexController'
-    }
-  }
+      controller: 'indexController',
+    },
+  },
 };
